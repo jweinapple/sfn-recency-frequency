@@ -8,6 +8,7 @@ Before installing PIP, download the get-pip.py file: get-pip.py on pypa.io.
 
 Download the file to the desired folder in Windows. You can save the file to any location, but remember the path so you can use it later.
 
+
 Step 2: Launch Windows Command Line
 PIP is a command-line program. When you install PIP, the PIP command is added to your system.
 
@@ -22,7 +23,8 @@ Both options open the Command Prompt window. However, note that you may need to 
 
 To run the Command Prompt window “As Administrator,” right-click “Command Prompt” and then select the “Run as…” option.
 
-Step 3: Installing PIP on Windows
+
+Step 3: 
 Open the Command Prompt if it isn’t already open. Use the cd command followed by a folder name to navigate to the location of the get-pip.py file. This is the folder you previously used as the download location.
 
 To install PIP type in the following:
