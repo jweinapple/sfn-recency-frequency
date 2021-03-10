@@ -31,7 +31,7 @@ people.tail()
 print(people.shape)
 people = people.set_index('individual_id')
 
-people['Membership Year'].value_counts()
+# people['Membership Year'].value_counts()
 
 
 # #### 116,880 total Meeting Attendees since 2015
@@ -49,9 +49,9 @@ final_membership_rf.sample(10)
 
 # Does this include all 2020 members? I filtered for last membership 2020 and 2 year membership and I am only getting approx. 3800 records but we had 14000 2 years members in 2020. So I was wondering if we intentionally omitted some people. 
 
-final_membership_rf['Last Membership'].value_counts()
+# final_membership_rf['Last Membership'].value_counts()
 
-final_membership_rf[['Membership Year', 'Membership Product Group']].value_counts()
+# final_membership_rf[['Membership Year', 'Membership Product Group']].value_counts()
 
 final_membership_rf.shape
 
